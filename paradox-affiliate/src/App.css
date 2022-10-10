@@ -1,6 +1,11 @@
 .App {
   text-align: center;
-  background-image: linear-gradient(to right, rgba(4, 2, 22, 0.979), rgb(0, 0, 0));
+  background-image: url("image/659ec80c18a11c51821a9a47e38ea902.png"), linear-gradient(to right, rgba(4, 2, 22, 0.979), rgb(0, 0, 0));
+  background-repeat: no-repeat;
+  background-position: bottom 0px right 0px;
+  background-size: 50%, 100%;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -85,7 +90,13 @@
   justify-content: flex-start
 }
 
-.check-box {}
+.check-box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+
 
 .input-box {
   background-color: transparent;
@@ -120,6 +131,7 @@
   display: inline-block;
   font-size: 16px;
   clip-path: polygon(0 15.00px, 15.00px 0, 100% 0, 100% calc(100% - 15.00px), calc(100% - 15.00px) 100%, 0 100%);
+
 }
 
 .footer {

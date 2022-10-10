@@ -35,9 +35,7 @@ export function Signup () {
         <p><input type="checkbox"></input>DONE!</p>
         </div>
         </div>
-        <button className="submit-button">
-        SUBMIT!
-        </button>
+
         </div>
   )
 };
