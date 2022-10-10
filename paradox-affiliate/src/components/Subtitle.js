@@ -19,7 +19,7 @@ export function Subtitle () {
   <div className="App-text-contents2">
   <div className="App-contents-text">
   <p>
- ONCE COMPLETED, jOIN OUR Affiliate Telegram group to recieve your private link to share with others and earn £5 everytime they sign up!!
+ ONCE COMPLETED, JOIN OUR AFFILIATE Telegram GROUP TO RECEIVE YOUR PRIVATE LINK TO SHARE WITH OTHERS AND EARN £5 EVERYTIME they sign up!!
   </p>
   </div>
   </div>
