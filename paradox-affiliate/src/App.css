@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(to right, rgba(4, 2, 22, 0.979), rgb(0, 0, 0));
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5vh;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-text-header {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(25px + 2vmin);
+  color: white;
+  margin-bottom: 5px;
+}
+
+.App-text-subheader {
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-text-subheader2 {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: white;
+  margin-top: 5px;
+}
+
+.App-contents {
+
+  display: flex;
+  min-height: 25vh;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  font-size: calc(8px + 2vmin);
+  color: white;
+}
+
+.App-text-contents1 {
+
+  display: flex;
+  min-height: 25vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(5px + 2vmin);
+  text-align: left;
+  color: white;
+  width: 120vh;
+  background-image: linear-gradient(to right, rgba(11, 34, 243, 0.158), rgba(92, 107, 243, 0));
+}
+
+.App-text-contents2 {
+
+  display: flex;
+  min-height: 25vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: calc(5px + 2vmin);
+  text-align: right;
+  color: white;
+  background-image: linear-gradient(to right, rgba(11, 34, 243, 0.041), rgba(92, 107, 243, 0.233));
+  margin-top: 20px;
+  width: 100vh;
+}
+
+.App-contents-text {
+  margin: 10px;
+}
+
+
+.App-text-point {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start
+}
+
+.check-box {
+  background-color: #ffffff18;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
