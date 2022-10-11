@@ -1,5 +1,6 @@
 import "../App.css";
 import logo from '../image/paraffiliate.png';
+import React from "react";
 
 export function Title(){
   return(

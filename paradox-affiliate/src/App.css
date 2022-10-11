@@ -3,7 +3,7 @@
   background-image: url("image/659ec80c18a11c51821a9a47e38ea902.png"), linear-gradient(to right, rgba(4, 2, 22, 0.979), rgb(0, 0, 0));
   background-repeat: no-repeat;
   background-position: bottom 0px right 0px;
-  background-size: 50%, 100%;
+  background-size: 100%, 100%;
   background-attachment: fixed;
   min-height: 100vh;
 }
@@ -49,75 +49,10 @@
   flex-direction: column;
 }
 
-.App-text-contents1 {
-
-  display: flex;
-  height: 100%;
-  flex-direction: row;
-  align-items: center;
-  align-self: flex-start;
-  justify-content: flex-start;
-  font-size: calc(5px + 2vmin);
-  text-align: left;
-  color: white;
-  width: 120vh;
-  background-image: linear-gradient(to right, rgba(11, 34, 243, 0.158), rgba(92, 107, 243, 0));
-}
-
-.App-text-contents2 {
-
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  align-self: flex-end;
-  justify-content: center;
-  font-size: calc(5px + 2vmin);
-  text-align: right;
-  color: white;
-  background-image: linear-gradient(to right, rgba(11, 34, 243, 0.041), rgba(92, 107, 243, 0.233));
-  margin-top: 20px;
-  width: 100vh;
-}
-
-.App-contents-text {
-  margin: 10px;
-}
-
-
 .App-text-point {
   display: flex;
   flex-direction: column;
   justify-content: flex-start
-}
-
-.check-box {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-
-}
-
-
-.input-box {
-  background-color: transparent;
-  color: white;
-  border: none;
-  font-size: 15px;
-}
-
-.check-text-box {
-  background-color: rgba(50, 51, 61, 0.432);
-  margin: 10px 50px 10px 50px;
-  color: white;
-}
-
-.check-box-text {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  color: white;
-  font-size: 15px;
 }
 
 .submit-button {
@@ -132,25 +67,6 @@
   font-size: 16px;
   clip-path: polygon(0 15.00px, 15.00px 0, 100% 0, 100% calc(100% - 15.00px), calc(100% - 15.00px) 100%, 0 100%);
 
-}
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  color: white;
-  font-size: 8px;
-}
-
-.papalogo {}
-
-.app-logo {
-  height: 75px;
-}
-
-.socialicon {
-  height: 25px;
-  padding: 25px 5px 75px 5px;
 }
 
 .popup-heading {

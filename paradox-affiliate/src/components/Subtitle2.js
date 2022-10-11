@@ -1,4 +1,5 @@
-import "../App.css";
+import "./Subtitle2.css"
+import React from "react";
 
 export function Subtitle2 () {
   return (

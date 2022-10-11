@@ -1,4 +1,5 @@
-import "../App.css";
+import React from "react";
+import "./Subtitle1.css"
 
 export function Subtitle1 () {
   return (
@@ -11,7 +12,7 @@ export function Subtitle1 () {
   SIGN UP TO THE 2 EXCHANGES PARADOX COIN WILL BE LISTING ON
   </p>
   <p>
-  JOIN the paradox TELEGRAM GROUP, ITS THAT SIMPLE!
+  JOIN THE PARADOX TELEGRAM GROUP, ITS THAT SIMPLE!
   </p>
   </div>
   </div>
