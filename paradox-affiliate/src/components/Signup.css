@@ -7,7 +7,7 @@
 
 .input-box {
   background-color: transparent;
-  color: white;
+  color: #fff;
   border: none;
   font-size: 15px;
 }
@@ -15,20 +15,25 @@
 .check-text-box {
   background-color: rgba(50, 51, 61, 0.432);
   margin: 10px 50px 10px 50px;
-  color: white;
 }
 
 .check-box-text {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   color: white;
   font-size: 15px;
   margin: 0px 20px 0px 20px;
   width: 500px;
 }
 
-.text {
-  margin-right: 20px;
+.link:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.link:visited {
+  text-decoration: none;
+  color: #fff;
 }
