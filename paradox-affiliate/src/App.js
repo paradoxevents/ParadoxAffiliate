@@ -46,7 +46,6 @@ function App() {
         </Popup>
         
         <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
-          <img scr="./image/paraffiliate.png" alt='logo'/> 
           <h3 className="popup-heading">Congratulations!</h3>
           <div className="popup-content">
           <p>
