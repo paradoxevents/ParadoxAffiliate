@@ -7,7 +7,6 @@ import { Title } from './components/Title';
 import Popup from './components/Popup';
 import React, { useState, useEffect } from "react";
 
-
 function App() {
   const [buttonPopup, setButtonPopup] = useState(false);
   const [timedPopup, setTimedPopup] = useState(false);
@@ -28,8 +27,7 @@ function App() {
         </div>
         <Signup></Signup>
         <br></br>
-       
-        <buttom onClick={() =>setButtonPopup(true)} className="submit-button">SUBMIT!</buttom>
+        <button onClick={() =>setButtonPopup(true)} className="submit-button">SUBMIT!</button>
         <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
         <h3 className="popup-heading">Congratulations!</h3>
           <div className="popup-content">
@@ -55,8 +53,6 @@ function App() {
           </p>
           <p>Every 24 hours Your Payment will be submitted Join Our Paradox Affiliate Telegram group for more info!</p>
           </div>
-          
-
         </Popup>
         <Footer></Footer>
         </main>

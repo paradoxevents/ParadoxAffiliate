@@ -1,4 +1,4 @@
-import "../App.css";
+import "./Title.css";
 import logo from '../image/paraffiliate.png';
 import React from "react";
 
