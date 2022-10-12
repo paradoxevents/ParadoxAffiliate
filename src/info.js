@@ -4,8 +4,8 @@ const info = {
     bybit:"https://www.bybit.com/en-US/",
     paradoxtg:"",
     youtube:"https://www.youtube.com/channel/UCBru9GvyZh0EQBvddSQwuWA",
-    discord:"",
-    twich:"",
+    discord:"https://discord.com/invite/paradoxmetaverse",
+    twich:"https://www.twitch.tv/amiotalio",
     twitter:"https://twitter.com/Paradoxmeta_io",
   }
 
