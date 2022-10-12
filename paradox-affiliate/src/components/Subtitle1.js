@@ -4,7 +4,7 @@ import "./Subtitle1.css"
 export function Subtitle1 () {
   return (
   <div className="App-text-contents1">
-  <div className="App-contents-text">
+  <div className="App-contents1-text">
   <p>
   ALL YOU HAVE TO DO TO EARN £10 FOR FREE!
   </p>

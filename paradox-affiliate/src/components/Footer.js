@@ -17,10 +17,10 @@ export function Footer() {
     </div>
     <div className="sociallist">
       <div>
-      <a href={info.links.youtube} target="_blank"><img src={youtube} className="socialicon" alt="youtube"/></a>
-      <a href={info.links.discord} target="_blank"><img src={discord} className="socialicon" alt="discord"/></a>
-      <a href={info.links.twich} target="_blank"><img src={twich} className="socialicon" alt="twich"/></a>
-      <a href={info.links.twitter} target="_blank"><img src={twitter} className="socialicon" alt="twitter"/></a>
+      <a href={info.links.youtube} target="_blank" rel="noopener noreferrer"><img src={youtube} className="socialicon" alt="youtube"/></a>
+      <a href={info.links.discord} target="_blank" rel="noopener noreferrer"><img src={discord} className="socialicon" alt="discord"/></a>
+      <a href={info.links.twich} target="_blank" rel="noopener noreferrer"><img src={twich} className="socialicon" alt="twich"/></a>
+      <a href={info.links.twitter} target="_blank" rel="noopener noreferrer"><img src={twitter} className="socialicon" alt="twitter"/></a>
       </div>
       <p>Paradox © 2022, All rights reserved</p>
     </div>

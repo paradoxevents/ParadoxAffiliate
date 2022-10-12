@@ -10,10 +10,10 @@
   color: white;
   background-image: linear-gradient(to right, rgba(11, 34, 243, 0.041), rgba(92, 107, 243, 0.233));
   margin-top: 20px;
-  width: 100vh;
+  width: 100vmin;
 }
 
-.App-contents-text {
+.App-contents2-text {
   margin: 10px;
-  padding-right: 50px;
+  padding-right: 2vh;
 }

@@ -10,7 +10,7 @@ import React, { useState, useEffect } from "react";
 function App() {
   const [buttonPopup, setButtonPopup] = useState(false);
   const [timedPopup, setTimedPopup] = useState(false);
-
+  
   useEffect(() => {
     setTimeout(() => {
       setTimedPopup(true);
@@ -25,9 +25,11 @@ function App() {
         <Subtitle1></Subtitle1>
         <Subtitle2></Subtitle2>
         </div>
+
         <Signup></Signup>
         <br></br>
         <button onClick={() =>setButtonPopup(true)} className="submit-button">SUBMIT!</button>
+
         <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
         <h3 className="popup-heading">Congratulations!</h3>
           <div className="popup-content">
